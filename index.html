@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Víctor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/918befb449.js" crossorigin="anonymous"></script>
+    <script type="module" src="js/main.js" defer ></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            SOMATIVA LIMA - VÍCTOR EDUARDO
+        </div>
+    </header>
+    <!--Header-->
+    <div class="menu">
+        <div id="conteudo">
+        </div>
+        <div class="caixa">
+            <input type="text" placeholder="Type here..." id="msg" />
+            <a class="botao" id=butao href="javascript:void(0)"><i class="fa-solid fa-paper-plane"></i></a>
+
+            <!-- <input type="submit" value="Enviar" class="botao" id="butao"/><i class="fa-solid fa-paper-plane", id="b"></i> -->
+        </div>
+    </div>
+
+    <a href="javascript:    void(0)" id="botao" style="display:none;"></a>
+    <input type="hidden" id="key">
+    <script>
+        function deletar(key){
+            document.getElementById("key").value = key;
+            document.getElementById("botao").click();
+            
+        }
+    </script>
+</body>
+</html>

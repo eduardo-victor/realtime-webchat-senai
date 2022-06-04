@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(45,45,45);
+    overflow-x: hidden;
+}
+
+.header
+{
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(45,45,45);
+    border-bottom: 2px solid rgb(255, 111, 0);
+}
+
+b {
+    display: block;
+    text-transform: uppercase;
+    margin: 6px 15px;
+}
+
+span {
+    font-size: 20px;
+    word-break: break-all;
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+}
+/*Caixa para enviar mensagem    */
+#msg {
+    text-align: center;
+    width: 50vh;
+    border: none;
+    border-bottom: 1px solid rgb(255, 111, 0) ;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    font-family: 'Montserrat';
+    /* font-weight: 200; */
+    font-size: 15px;
+}
+
+/*Caixa com o chat*/
+#conteudo {
+    background-image: url("/img/wallpaper.jpg");
+    border: 1px solid rgb(255, 111, 0);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 70vh;
+    max-width: 65vw;
+    padding: 3px 0 15px 15px;
+    overflow-y: scroll;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+.msg {
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 6px 0;
+}
+
+#content{
+    z-index: 888;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    max-height: 70vh;
+    overflow-y: scroll;
+    background-color: blueviolet;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+    
+}
+
+.eu{
+    width: 370px;
+    min-height: 100px;
+    padding: 5px;
+    background-color: rgb(52, 56, 255);
+    border-radius: 6px;
+    
+}
+
+.outros{
+    display: flex;
+    width: 370px;
+    padding: 6px 0;
+    background-color: rgb(255, 137, 46);
+    margin: 7px 10px;
+    text-align: left;
+    border-radius: 5px;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    align-content: flex-start;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.self{
+    display: flex;    
+    margin: 7px 10px;
+    -webkit-box-align: baseline;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex: 1;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.hour{
+    font-size: 12px;
+    color: #fff;
+}
+
+.botao{
+    width: 5%;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 1vh;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(255, 137, 46);
+    color: rgb(255, 255, 255);
+}
+
+.botao:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.caixa{
+    justify-content: center;
+    margin-top: 1vh;
+    display: flex;
+}
+
+.menu{
+    align-items: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(255, 137, 46); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: rgb(255, 255, 255); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    border-radius: 2px;
+    background: rgb(45,45,45);
+  }
